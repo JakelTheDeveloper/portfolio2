@@ -98,9 +98,10 @@ textarea{
     flex:1;
     margin:10px;
 }
-article div div img{
-    border-radius:10%;
+.item2 img{
+  border-radius:10%;
 }
+
 .item-double {
     flex: 2;
     margin:10px;
