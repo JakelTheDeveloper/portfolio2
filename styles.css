@@ -1,17 +1,38 @@
 main{
     margin-top:10px;
 }
-
-main h1 {
+header{
+    background-color: burlywood;
+}
+header h1 {
     margin: 0 10px;
-    text-align: center;
     font-family: 'Kite One', sans-serif;
     font-size: 65px;
-    background-color: burlywood;
   }
+header nav {
+    display: flex;
+    justify-content: center;
+}
+header nav ul{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+header nav ul li a{
+    color:black;
+    border-radius: 100px;
+    border-right: 2px solid black;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin: 0 20px 0 0;
+    font-family: 'Kite One', sans-serif;
+    font-size: 24px;
+}
+header nav ul li:last-child a{
+    margin-right: 0;
+}
   main h2 {
     margin: 18px 0 12px 0;
-   /* border-bottom: 1px solid #5c4f41;*/
     font-family: 'Kite One', sans-serif;
     font-size: 24px;
     text-align: center;
@@ -19,7 +40,6 @@ main h1 {
   }
   main h3 {
     margin: 18px 0 12px 0;
-   /* border-bottom: 1px solid #5c4f41;*/
     font-family: 'Kite One', sans-serif;
     font-size: 24px;
     text-align: center;
@@ -33,7 +53,6 @@ main h1 {
   article{
       display: block;
       margin-bottom: 60px;
-     /* margin-left: 120px;*/
       width: 100%;
   }
 
@@ -41,7 +60,6 @@ main article section{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /*background-color: burlywood;*/
     list-style-position: inside;
     border-radius: 10px; 
 }
@@ -101,7 +119,19 @@ textarea{
      section, h1 {
          padding: 0 10%;
        }
-     
+       header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+      }
+      header h1 {
+        font-size: 42px;
+        margin: 14px 0;
+        padding-top: 6px;
+      }
+      header nav {
+        margin-top: 14px;
+      }
        .group {
          flex-direction: row;
        }
