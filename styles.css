@@ -1,0 +1,109 @@
+main{
+    margin-top:10px;
+}
+
+main h1 {
+    margin: 0 10px;
+    text-align: center;
+    font-family: 'Kite One', sans-serif;
+    font-size: 65px;
+    background-color: burlywood;
+  }
+  main h2 {
+    margin: 18px 0 12px 0;
+   /* border-bottom: 1px solid #5c4f41;*/
+    font-family: 'Kite One', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: burlywood;
+  }
+  main h3 {
+    margin: 18px 0 12px 0;
+   /* border-bottom: 1px solid #5c4f41;*/
+    font-family: 'Kite One', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background-color: burlywood;
+  }
+  main p {
+    font-family:'Kite One', sans-serif;
+    margin-top: 0;
+    font-size:18px;
+  }
+  article{
+      display: block;
+      margin-bottom: 60px;
+     /* margin-left: 120px;*/
+      width: 100%;
+  }
+
+main article section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*background-color: burlywood;*/
+    list-style-position: inside;
+    border-radius: 10px; 
+}
+#bg-callout{
+    background-color: burlywood;
+}
+main article section h3 {
+    text-align: center; 
+    margin-bottom: 0;
+   text-decoration:underline;
+}
+main article section ul li{
+    text-align: center; 
+    font-family:'Kite One', sans-serif;
+    margin-left: -50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 10px;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    margin-left: 220px;
+    width:50px;
+}
+textarea{
+    width:50%;
+    height:100px;
+    margin-top: 10px;
+}
+.item{
+    flex:1;
+    margin:10px;
+}
+#round{
+    border-radius:10%;
+}
+.item-double {
+    flex: 2;
+    margin:10px;
+  }
+  .group{
+    display: flex;
+    justify-content: center;
+  flex-direction: column;  
+}
+.group img {
+    width: 100%;
+  }
+
+   
+   @media all and (min-width: 800px) {
+     section, h1 {
+         padding: 0 10%;
+       }
+     
+       .group {
+         flex-direction: row;
+       }
+   }
+   
