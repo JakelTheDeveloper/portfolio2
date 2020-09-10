@@ -98,7 +98,7 @@ textarea{
     flex:1;
     margin:10px;
 }
-article img{
+article div div img{
     border-radius:10%;
 }
 .item-double {
