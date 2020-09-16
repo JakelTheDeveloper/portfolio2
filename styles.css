@@ -1,6 +1,10 @@
 main{
     margin-top:10px;
 }
+body{
+  position: fixed;
+  margin: 0 0 0 0;
+}
 header{
     background-color: burlywood;
 }
@@ -28,6 +32,7 @@ header nav ul li a{
     margin: 0 10px 0 0;
     font-family: 'Kite One', sans-serif;
     font-size: 14px;
+    text-align: center;
 }
 header nav ul li:last-child a{
     margin-right: 0;
