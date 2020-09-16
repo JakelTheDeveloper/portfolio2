@@ -1,9 +1,9 @@
 main{
     margin-top:10px;
 }
-body{
-  position: fixed;
-  margin: 0 0 0 0;
+html,body{
+  position: relative;
+  margin:0 0 0 0;
 }
 header{
     background-color: burlywood;
