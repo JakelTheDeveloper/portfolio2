@@ -95,6 +95,15 @@ button{
     margin-left: 220px;
     width:50px;
 }
+.stack ul{
+  display:inline-block;
+  text-align: left;
+}
+.stack{
+  text-align: center; 
+    font-family:'Kite One', sans-serif;
+    
+}
 textarea{
     width:50%;
     height:100px;
